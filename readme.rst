@@ -27,7 +27,9 @@ CREATE TABLE `member` (
   `created` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
 For Dummy user
+
 INSERT INTO `member` (`id`, `firstName`, `lastName`, `email`, `password`, `created`) VALUES
 (1, 'Fouzia', 'Chowdhury', 'fouabc@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '2017-10-06')
 
