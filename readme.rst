@@ -17,6 +17,7 @@ Installation
 
 Open /application/config/database.php and edit with your database settings
 On your database, open a SQL terminal paste this and execute:
+
 CREATE TABLE `member` (
   `id` int(11) NOT NULL,
   `firstName` varchar(255) NOT NULL,
